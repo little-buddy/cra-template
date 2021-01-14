@@ -3,22 +3,27 @@
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
+		"@reduxjs/toolkit": "^1.5.0",
 		"@testing-library/jest-dom": "^4.2.4",
 		"@testing-library/react": "^9.3.2",
 		"@testing-library/user-event": "^7.1.2",
 		"@types/jest": "^24.0.0",
 		"@types/node": "^12.0.0",
-		"@types/react": "^16.9.0",
-		"@types/react-dom": "^16.9.0",
-		"normalize-scss": "^7.0.1",
+		"@types/react": "^17.0.0",
+		"@types/react-dom": "^17.0.0",
+		"cssnano": "^4.1.10",
+		"polished": "^4.0.5",
 		"qrcode": "^1.4.4",
-		"react": "^16.13.1",
-		"react-dom": "^16.13.1",
-		"react-scripts": "3.4.1",
+		"react": "^17.0.1",
+		"react-dom": "^17.0.1",
+		"react-redux": "^7.2.2",
+		"react-scripts": "4.0.1",
 		"react-toast-mobile": "^1.0.10",
+		"redux": "^4.0.5",
+		"redux-logger": "^3.0.6",
 		"styled-components": "^5.0.1",
 		"styled-px2vw": "^1.0.9",
-		"typescript": "~3.7.2"
+		"typescript": "^4.1.3"
 	},
 	"scripts": {
 		"start": "react-app-rewired start",
@@ -27,18 +32,6 @@
 		"eject": "react-scripts eject",
 		"stylelint-check": "stylelint-config-prettier-check",
 		"lint:css": "stylelint './src/**/*.js'"
-	},
-	"browserslist": {
-		"production": [
-			">0.2%",
-			"not dead",
-			"not op_mini all"
-		],
-		"development": [
-			"last 1 chrome version",
-			"last 1 firefox version",
-			"last 1 safari version"
-		]
 	},
 	"devDependencies": {
 		"@types/styled-components": "^5.0.1",
@@ -50,6 +43,7 @@
 		"customize-cra-react-refresh": "^1.0.1",
 		"eslint-config-prettier": "^6.10.1",
 		"eslint-plugin-prettier": "^3.1.2",
+		"eslint-plugin-react": "^7.22.0",
 		"node-sass": "^4.13.1",
 		"postcss-aspect-ratio-mini": "^1.0.1",
 		"postcss-px-to-viewport": "^1.1.1",
@@ -63,5 +57,10 @@
 		"stylelint-config-styled-components": "^0.1.1",
 		"stylelint-order": "^4.0.0",
 		"stylelint-processor-styled-components": "^1.10.0"
-	}
+	},
+	"browserslist": [
+		"last 1 version",
+		"> 1%",
+		"IE 10"
+	]
 }
