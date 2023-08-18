@@ -1,5 +1,4 @@
 name: automatically merge dependabot PR's
-
 on:
   pull_request:
     branches: [ master ]
