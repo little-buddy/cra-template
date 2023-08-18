@@ -19,7 +19,7 @@
 		"react-redux": "^7.2.2",
 		"react-scripts": "4.0.1",
 		"react-toast-mobile": "^1.0.10",
-		"redux": "^4.0.5",
+		"redux": "^4.2.1",
 		"redux-logger": "^3.0.6",
 		"styled-components": "^5.0.1",
 		"styled-px2vw": "^1.0.9",
